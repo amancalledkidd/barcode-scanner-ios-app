@@ -48,9 +48,10 @@ final class ScannerVC: UIViewController {
         
         guard let previewLayer = previewLayer else {
             scannerDelegate?.didSurface(error: .invalidDeviceInput)
+            return
         }
         
-        previewLayer?.frame = view.layer.bounds
+        previewLayer.frame = view.layer.bounds
     }
     
     private func setupCaptureSession() {
@@ -114,6 +115,8 @@ extension ScannerVC: AVCaptureMetadataOutputObjectsDelegate {
             return
         }
         
+//        captureSession.stopRunning()
         scannerDelegate?.didFind(barcode: barcode)
+        
     }
 }

@@ -15,6 +15,7 @@
 		D941ACBA2ADF07220008159C /* BarcodeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941ACB92ADF07220008159C /* BarcodeScannerUITests.swift */; };
 		D941ACBC2ADF07220008159C /* BarcodeScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941ACBB2ADF07220008159C /* BarcodeScannerUITestsLaunchTests.swift */; };
 		D941ACC92ADF116C0008159C /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941ACC82ADF116C0008159C /* ScannerVC.swift */; };
+		D941ACCB2AE191350008159C /* ScnnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941ACCA2AE191350008159C /* ScnnerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D941ACB92ADF07220008159C /* BarcodeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITests.swift; sourceTree = "<group>"; };
 		D941ACBB2ADF07220008159C /* BarcodeScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D941ACC82ADF116C0008159C /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		D941ACCA2AE191350008159C /* ScnnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScnnerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D941ACA32ADF07220008159C /* BarcodeScanner.entitlements */,
 				D941ACA42ADF07220008159C /* Preview Content */,
 				D941ACC82ADF116C0008159C /* ScannerVC.swift */,
+				D941ACCA2AE191350008159C /* ScnnerView.swift */,
 			);
 			path = BarcodeScanner;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				D941ACC92ADF116C0008159C /* ScannerVC.swift in Sources */,
 				D941ACA02ADF07210008159C /* BarcodeScannerView.swift in Sources */,
 				D941AC9E2ADF07210008159C /* BarcodeScannerApp.swift in Sources */,
+				D941ACCB2AE191350008159C /* ScnnerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
